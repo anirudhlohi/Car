@@ -70,13 +70,13 @@ function my_keydown(e){
     if (key_pressed == '83'){
         car2_down();
     }
-    if (key_pressed == '98'){
+    if (key_pressed == '68'){
         car2_right();
     }
-    if (car1_x > 700){
+    if (car1_x >= 700){
         document.getElementById("status").innerHTML = "Car 1 wins!!"
     }
-    if (car2_x > 700){
+    if (car2_x >= 700){
         document.getElementById("status").innerHTML = "Car 2 wins!!"
     }
 }
